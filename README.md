@@ -17,9 +17,9 @@ A modern music player application
 **Rename** the file `.env.local.example` to `.env.local` and **fill in** the following credentials
 
 | Key | Source |
-| :--- | :--- | :--- |
-| `SPOTIFY_CLIENT_ID`| Get credentials from **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**. |
-| `SPOTIFY_CLIENT_SECRET` | Get secret from **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**.  |
+| :--- | :--- |
+| `SPOTIFY_CLIENT_ID`| Get your ID from the **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**. |
+| `SPOTIFY_CLIENT_SECRET` | Get your Secret from the **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**. |
 
 Run the following commands in your terminal
 
@@ -36,3 +36,4 @@ To run tests with **React Testing Library**:
 ```bash
 pnpm test
 ```
+
