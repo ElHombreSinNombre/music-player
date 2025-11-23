@@ -1,20 +1,38 @@
-# Music player
 
-Technologies
+# Music Player
 
-- **[React](https://react.dev/)**
-- **[Tailwind](https://tailwindcss.com/)**
-- **[Zustand](https://zustand-demo.pmnd.rs/)**
-- **[NextJS](https://nextjs.org/)**
-- **[Framer](https://www.framer.com/motion/)**
-- **[React Test Library](https://testing-library.com/docs/react-testing-library/)**
+A modern music player application
 
-Clone _.env.local.example_ and rename as _.env.local_
+##  Technologies
 
-- Change **[Spotify Client ID](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)**
-- Change **[Spotify Client Secret](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)**
+* **[Next.js](https://nextjs.org/)** 
+* **[React](https://react.dev/)**
+* **[Tailwind CSS](https://tailwindcss.com/)** 
+* **[Zustand](https://zustand-demo.pmnd.rs/)** 
+* **[Framer Motion](https://www.framer.com/motion/)** 
+* **[React Testing Library](https://testing-library.com/docs/react-testing-library/)** 
 
-Run
+## How to deploy
 
-- _pnpm install_
-- _pnpm run dev_
+**Rename** the file `.env.local.example` to `.env.local` and **fill in** the following credentials
+
+| Key | Source |
+| :--- | :--- | :--- |
+| `SPOTIFY_CLIENT_ID`| Get credentials from **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**. |
+| `SPOTIFY_CLIENT_SECRET` | Get secret from **[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)**.  |
+
+Run the following commands in your terminal
+
+```bash 
+pnpm install 
+pnpm run dev
+```
+The application will be accessible at `http://localhost:3000`.
+
+### Testing
+
+To run tests with **React Testing Library**:
+
+```bash
+pnpm test
+```
